@@ -1,0 +1,60 @@
+.caixa_banner{
+    background: rgb(6, 6, 32);
+    /*"background: linear-gradient(to bottom, #071524, #143252);" Teste com cores gradientes*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrossel{
+    margin: auto;
+    display: block;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carrossel img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.carrossel-btn-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #060620;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: background-color 0.3s ease;
+    right:0;
+}
+
+.carrossel-btn-prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #060620;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: background-color 0.3s ease;
+    left:0;
+}
+
+
+.carrossel-btn-prev:hover{
+    background-color: #08082e;
+}
+
+.carrossel-btn-next:hover{
+    background-color: #08082e;
+}

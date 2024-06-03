@@ -1,0 +1,75 @@
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background: #f1e9e9;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(3, 3, 20);
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+.beneficios .item::-webkit-scrollbar{
+    width: 12px;
+}
+
+.beneficios .item::-webkit-scrollbar-track{
+    background: #f1e9e9;
+    border-radius: 10px;
+}
+
+.beneficios .item::-webkit-scrollbar-thumb{
+    background-color: rgb(3, 3, 20);
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+.funcionarios::-webkit-scrollbar{
+    width: 12px;
+}
+
+.funcionarios::-webkit-scrollbar-track{
+    background: #f1e9e9;
+    border-radius: 10px;
+}
+
+.funcionarios::-webkit-scrollbar-thumb{
+    background-color: rgb(3, 3, 20);
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+.beneficios::-webkit-scrollbar{
+    width: 12px;
+}
+
+.beneficios::-webkit-scrollbar-track{
+    background: #f1e9e9;
+    border-radius: 10px;
+}
+
+.beneficios::-webkit-scrollbar-thumb{
+    background-color: rgb(3, 3, 20);
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+@media (max-width: 1100px) {
+    .beneficios .item::-webkit-scrollbar{
+        width: 12px;
+    }
+    
+    .beneficios  .item::-webkit-scrollbar-track{
+        background: none;
+        border-radius: 10px;
+    }
+    
+    .beneficios .item::-webkit-scrollbar-thumb{
+        background-color: none;
+    }
+}
+

@@ -1,0 +1,452 @@
+@media (max-width: 1200px){
+    .garantia{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .beneficios{
+        flex-wrap:wrap;
+        gap: 10px;
+    }
+
+    .funcionarios{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .habilidades1{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .habilidades2{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .habilidades3{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+   
+    .barra-navegacao .logo{
+        padding-right: 5px;
+    }
+
+    .garantia .item{
+        flex-basis: 49%;
+    }
+
+    .beneficios .item{
+        flex-basis: 49%;
+    }
+
+    .funcionarios .item{
+        flex-basis: 49%;
+    }
+
+    .funcionarios .item .imagem img{
+        max-height: 19vh;
+        margin-top: 2vh;  
+    }
+
+    .habilidades .item{
+        flex-basis: 49%;
+    }
+
+    .funcionarios{
+        overflow-y: scroll;
+    }
+}
+@media (max-width: 1000px){
+    .barra-navegacao .logo{
+        display: none;
+    }
+
+    .funcionarios{
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 780px){
+    .barra-navegacao bt-acessar{
+        padding: 5px 20px;
+        scale: 0.9;
+    }
+
+    .barra-navegacao .logo{
+        display: none;
+    }
+
+    .barra-navegacao ul li a{
+        font-size: 2vw;
+    }
+
+    .principal h4{
+        font-size: 24px;
+    }
+
+    .principal p.titulo{
+        font-size: 36px;
+    }
+
+    .principal .subtitulo{
+        font-size: 14px;
+    }
+
+    .garantia .item{
+        flex-basis: 100%;
+    }
+
+    .beneficios .item{
+        flex-basis: 100%;
+    }
+
+    .funcionarios .item{
+        flex-basis: 100%;
+    }
+
+    .funcionarios .item .imagem img{
+        max-height: 16vh;
+        margin-top: 2vh;
+    }
+
+    .sobre{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .habilidades1 .item{
+        flex-basis: 100%;
+    }
+
+    .habilidades2 .item{
+        flex-basis: 100%;
+    }
+
+    .habilidades3 .item{
+        flex-basis: 100%;
+    }
+
+    .funcionarios{
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 650px){
+    .barra-navegacao{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .barra-navegacao .logo{
+        display: none;
+    }
+
+    .barra-navegacao h2{
+        display: none;
+    }
+
+    .barra-navegacao ul li a{
+        font-size: 12px;
+    }
+
+    .principal{
+        margin-top: 50px;
+        height: 320px;
+        justify-content: start;
+    }
+
+    .principal h4{
+        font-size: 20px;
+    }
+
+    .principal p.titulo{
+        font-size: 20px;
+    }
+
+    .principal .subtitulo{
+        font-size: 12px;
+    }
+
+    .principal img{
+        margin-top: 20px;
+        width: 150px;
+    }
+
+    .funcionarios .item .imagem img{
+        max-height: 16vh;
+        margin-top: 2vh;
+    }
+
+    .funcionarios{
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 480px){
+    .barra-navegacao .logo{
+        display: none;
+    }
+
+    .barra-navegacao ul li a{
+        font-size: 9px;
+    }
+
+    .principal p.titulo{
+        font-size: 18px;
+    }
+
+    .principal .subtitulo{
+        font-size: 10px;
+    }
+
+    .garantia .item .info h3{
+        font-size: 20px;
+    }
+
+    .garantia .item .info p{
+        font-size: 12px;
+    }
+
+    .beneficios .item .info h3{
+        font-size: 20px;
+    }
+
+    .beneficios .item .info p{
+        font-size: 12px;
+    }
+
+    .funcionarios .item .info h3{
+        font-size: 20px;
+    }
+
+    .funcionarios .item .info p{
+        font-size: 12px;
+    }
+    
+    .habilidades1 .item .info h3{
+        font-size: 20px;
+    }
+
+    .habilidades1 .item .info p{
+        font-size: 12px;
+    }
+
+    .habilidades2 .item .info h3{
+        font-size: 20px;
+    }
+
+    .habilidades2 .item .info p{
+        font-size: 12px;
+    }
+
+    .habilidades3 .item .info h3{
+        font-size: 20px;
+    }
+
+    .habilidades3 .item .info p{
+        font-size: 12px;
+    }
+
+    .funcionarios .item .imagem img{
+        height: 9vh;
+        scale: 2.5;
+    }
+
+    .funcionarios{
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width:420px){
+    .barra-navegacao{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .barra-navegacao .logo{
+        display: none;
+    }
+
+    .barra-navegacao h2{
+        display: none;
+    }
+
+    .barra-navegacao ul li a{
+        font-size: 10px;
+    }
+
+    .funcionarios .item .imagem img{
+    height: 10vh;
+    scale: 2.5;
+    }
+
+    .funcionarios{
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width:320px){
+    .barra-navegacao{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .barra-navegacao .logo{
+        display: none;
+    }
+
+    .barra-navegacao h2{
+        display: none;
+    }
+
+    .barra-navegacao ul li a{
+        font-size: 9px;
+
+    }
+
+    .funcionarios .item .imagem img{
+    max-width: 6vh;
+    max-height: 6vw;
+    }
+
+    .funcionarios .item{
+        flex-basis: 100%;
+        max-height: 50vh;
+    }
+
+    .funcionarios{
+        flex-wrap: wrap;
+    }
+    .funcionarios{
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width:300px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+
+    .barra-navegacao{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .barra-navegacao .logo{
+        display: none;
+    }
+
+    .barra-navegacao h2{
+        display: none;
+    }
+
+    .barra-navegacao ul li a{
+        font-size: 2.5vw;
+
+    }
+
+    .principal p.titulo{
+        font-size: 18px;
+    }
+
+    .principal .subtitulo{
+        font-size: 10px;
+    }
+
+    .garantia .item .info h3{
+        font-size: 17px;
+    }
+
+    .garantia .item{
+        width: 60%;
+    }
+
+    .garantia .item .info p{
+        font-size: 10px;
+    }
+
+    .quem-somos .sobre .info p{
+        font-size:18px;
+    }
+
+    .quem-somos .sobre{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    
+
+    .beneficios .item .info h3{
+        font-size: 15px;
+    }
+
+    .beneficios .item .info p{
+        font-size: 12px;
+    } 
+    .habilidades1 .item .info h3{
+        font-size: 20px;
+    }
+
+    .habilidades1 .item .info p{
+        font-size: 12px;
+    }
+
+    .habilidades2 .item .info h3{
+        font-size: 20px;
+    }
+
+    .habilidades2 .item .info p{
+        font-size: 12px;
+    }
+
+    .habilidades3 .item .info h3{
+        font-size: 20px;
+    }
+
+    .habilidades3 .item .info p{
+        font-size: 12px;
+    }
+
+    .funcionarios .item{
+        align-items: auto;
+    }
+
+    .funcionarios .item .imagem img{
+            max-height: 6vh;
+            margin-top: -2vh;
+    }
+
+}
+
+@media(min-width:1550px){
+    .funcionarios .item .imagem img{
+        max-height: 20vh;
+        border-radius: 10px;
+        margin-top: 5vh;
+    }
+}
+
+@media(min-width:1600px){
+    .funcionarios .item .imagem img{
+        max-height: 18vh;
+        border-radius: 10px;
+        margin-top: 5vh;
+    }
+}
+
+@media(min-width:1700px){
+    .funcionarios .item .imagem img{
+        max-height: 17vh;
+        border-radius: 10px;
+        margin-top: 5vh;
+    }
+}

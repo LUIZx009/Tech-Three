@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap'); /*font-family: "Anta", sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Honk:SHLN@49.8&family=Ojuju:wght@200..800&display=swap');/*font-family: "Honk", system-ui*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');/*font-family: "Alegrya Sana SC", sans-serif*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    height: 100vh;
+    background: rgb(3, 3, 20);
+}
+
+.logo{
+    width: 100%;
+    right: 50px;
+    left: 20px;
+  
+}
+
+header .logo:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+    filter:drop-shadow(5px 5px 30px #FFFFFF);
+}
+
+.logo_caixa{
+    width: 40px;
+    position: relative;
+    margin-right: 10px;
+    /*background-color: red;*/
+}
+
+.barra-navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+    padding: 0 50px ;
+    font-family: "Anta",  sans-serif;
+}
+
+.barra-navegacao h2{
+    color: rgb(7, 163, 253) ;
+    font-weight: 500;
+    font-size: 3vw;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.barra-navegacao ul{
+    display: flex;
+    align-items: center;
+    justify-content: column;
+}
+
+.barra-navegacao ul li{
+    list-style: none;
+}
+
+.barra-navegacao ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.barra-navegacao li:hover a{
+color: rgb(255, 166, 0);
+}
+
+.bt-acessar{
+    background: rgb(7, 163, 253);
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.bt-acessar:hover{
+    background: rgb(255, 166, 0);
+}
+
+.principal{
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.principal h4{
+    font-size: 32px;
+    color: antiquewhite;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Alegrya Sana SC", sans-serif;
+}
+
+.principal h4 span{
+    color: rgb(7, 163, 253);
+}
+
+.principal p.titulo{
+    font-size: 44px;
+    font-weight: 500;
+    color: aliceblue;
+    font-family: "Anta", sans-serif;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.principal .subtitulo{ 
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: "Anta", sans-serif;
+    text-transform: uppercase;
+}
+
+.principal h4 p.titulo p.subtitulo{
+    justify-content: space-between;
+}
+
+.principal img{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.garantia{
+    margin-top: 10px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.garantia .item{
+    background-color: rgb(255, 166, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.garantia .item:hover{
+    background-color: rgb(3, 3, 20);
+    scale: 1.05;
+}
+
+.garantia .item .icone{
+    width: 46px;
+    height: 46px;
+    background: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.garantia .item:hover .icone{
+    background-color: rgb(255, 166, 0);
+}
+
+.garantia .item:hover .info p{
+    color: aliceblue;
+}
+
+.garantia .item:hover .info h3{
+    color: rgb(255, 166, 0);
+}
+
+.garantia .item .icone i{
+    font-size: 30px;
+}
+
+.garantia .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.garantia .item .info h3{
+    color: rgb(3, 3, 20);
+    font-size: 28px;
+    transition: color 0.3s ease;
+    font-family: "Anta", sans serif;
+}
+
+.garantia .item .info p{
+    color: rgb(3, 3, 20);
+    transition: color 0.3s ease;
+    font-family: "Anta", sans serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.garantia .item > i{
+    color: aliceblue;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.garantia .item:hover > i{
+    color: rgb(3, 3, 20);
+}
+
+.separador{
+    margin: 50px 50px 30px;
+    padding: 10px 20px;
+    background-color: rgb(6, 6, 29);
+    display: inline-block;
+    color: aliceblue;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Anta", sans-serif;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 10px 50px;    
+    /*background-color: red;
+    border-radius: 15px;
+    margin: 0 20px;*/
+}
+
+.sobre img{
+    width: 200px;
+}
+
+.sobre .info h3{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Anta", sans-serif;
+}
+
+.sobre .info p{
+    color: aliceblue;
+    font-size: 24px;
+    font-family: "Anta", sans-serif;
+    text-align: justify;
+}
+
+
+
+.info .bt-profissionais a{
+    text-decoration: none;
+    color: rgb(3, 3, 20);
+}
+
+.bt-profissionais{
+    background: rgb(255, 166, 0);
+    padding: 8px 40px;
+    border: none;
+    margin-top:35px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-family: "Anta", sans-serif;
+}
+
+.bt-profissionais:hover{
+    background: rgb(7, 163, 253);
+    scale: 1.1;
+}
+
+.habilidades1{
+    margin-top: 10px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.habilidades1 .item{
+    background-color: rgb(6, 6, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.habilidades1 .item:hover{
+    background-color: rgb(3, 3, 20);
+    scale: 1.05;
+}
+
+.habilidades1 .item .icone{
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+    background: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.habilidades1 .item .icone img{
+    width: 35px;
+}
+
+.habilidades1 .item:hover .icone{
+    background-color: rgb(255, 166, 0);
+}
+
+.habilidades1 .item .info h3{
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: "Anta", sans serif;
+}
+
+.seta{
+    color: rgb(6, 6, 29);
+    transition: color 0.3s ease;
+}
+
+.habilidades1 .item:hover .seta{
+    color: rgb(3, 3, 20);
+}
+
+.habilidades1 .item:hover .info h3{
+    color: rgb(255, 166, 0);
+}
+
+.habilidades1 .item .icone i{
+    font-size: 30px;
+}
+
+.habilidades1 .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades1 .item > i{
+    color: aliceblue;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.habilidades1 .item:hover > i{
+    color: rgb(3, 3, 20);
+}
+
+.habilidades2{
+    margin-top: 10px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.habilidades2 .item{
+    background-color: rgb(6, 6, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.habilidades2 .item:hover{
+    background-color: rgb(3, 3, 20);
+    scale: 1.05;
+}
+
+.habilidades2 .item .icone{
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+    background: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.habilidades2 .item .icone img{
+    width: 35px;
+}
+
+.habilidades2 .item:hover .icone{
+    background-color: rgb(255, 166, 0);
+}
+
+.habilidades2 .item .info h3{
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: "Anta", sans serif;
+}
+
+
+.habilidades2 .item:hover .seta{
+    color: rgb(3, 3, 20);
+}
+
+.habilidades2 .item:hover .info h3{
+    color: rgb(255, 166, 0);
+}
+
+.habilidades2 .item .icone i{
+    font-size: 30px;
+}
+
+.habilidades2 .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades2 .item > i{
+    color: aliceblue;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.habilidades2 .item:hover > i{
+    color: rgb(3, 3, 20);
+}
+
+
+.habilidades3{
+    margin-top: 10px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.habilidades3 .item{
+    background-color: rgb(6, 6, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.habilidades3 .item:hover{
+    background-color: rgb(3, 3, 20);
+    scale: 1.05;
+}
+
+.habilidades3 .item .icone{
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+    background: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.habilidades3 .item .icone img{
+    width: 35px;
+}
+
+.habilidades3 .item:hover .icone{
+    background-color: rgb(255, 166, 0);
+}
+
+.habilidades3 .item .info h3{
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: "Anta", sans serif;
+}
+
+
+.habilidades3 .item:hover .seta{
+    color: rgb(3, 3, 20);
+}
+
+.habilidades3 .item:hover .info h3{
+    color: rgb(255, 166, 0);
+}
+
+.habilidades3 .item .icone i{
+    font-size: 30px;
+}
+
+.habilidades3 .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades3 .item > i{
+    color: aliceblue;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.habilidades3 .item:hover > i{
+    color: rgb(3, 3, 20);
+}
+
+.beneficios{
+    padding: 0 50px;
+    margin: 10px;
+    height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+
+.beneficios .item{
+    background-color: rgb(14, 136, 206);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 90%;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: justify;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.beneficios .item:hover{
+    background-color: rgb(3, 3, 20);
+    scale: 1.05;
+}
+
+.beneficios .item .icone{
+    width: 126px;
+    height: 126px;
+    background: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    max-height: 25vh;
+    margin-top: -3vh;
+}
+
+.beneficios .item .icone img{
+    width: 65px;
+}
+
+.beneficios .item:hover .icone{
+    background-color: rgb(255, 166, 0);
+}
+
+.beneficios .item:hover .info p{
+    color: aliceblue;
+}
+
+.beneficios .item:hover .info h3{
+    color: rgb(255, 166, 0);
+}
+
+.beneficios .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beneficios .item .info h3{
+    color: rgb(3, 3, 20);
+    font-size: 20px;
+    transition: color 0.3s ease;
+    font-family: "Anta", sans serif;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.beneficios .item .info p{
+    color: rgb(3, 3, 20);
+    transition: color 0.3s ease;
+    font-family: "Anta", sans serif;
+    font-size: 16px;
+    font-weight: 500;
+    max-height: 180px;
+    text-align: justify;
+    margin-top: 0.5vh;
+}
+
+.beneficios .item > i{
+    color: aliceblue;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.beneficios .item:hover > i{
+    color: rgb(3, 3, 20);
+}

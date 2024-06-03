@@ -1,0 +1,153 @@
+footer{
+    background: linear-gradient(rgb(8, 8, 32), rgb(3, 3, 20));
+    font-family: "Anta";
+ }
+ 
+ footer .footer-conteudo{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ footer .footer-orcamento{
+     margin-top: 100px;
+ }
+ 
+ 
+ footer .inicio-footer{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: rgb(255, 166, 0);
+     padding: 30px 25px;
+     border-radius: 15px;
+     width: 70%;
+     top: -16%;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ 
+ footer .inicio-footer p{
+     font-size: 15px;
+     width: 35%;
+     text-align: justify;
+ }
+ 
+ footer .inicio-footer button{
+     background: transparent;
+     border: 1px solid rgb(6, 6, 32);
+     cursor: pointer;
+     padding: 8px 16px;
+     border-radius: 100px;
+     transition: all 0.3s ease;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ 
+ footer .inicio-footer button:hover{
+     background-color: rgb(14, 136, 206);
+     border-color: rgb(14, 136, 206);
+ }
+ 
+ footer .footer-links{
+     position: relative;
+     padding: 20px 50px 40px;
+ }
+ 
+ footer .cols{
+     display: flex;
+     align-items: start;
+ }
+ 
+ footer .cols .sobre-cols{
+     flex: 3;
+     left: 15%;
+ }
+ 
+ footer .cols .sobre-cols h3{
+     color: rgb(255, 166, 0);
+     margin-bottom: 10px;
+     font-weight: 5;
+ }
+ 
+ footer .cols .sobre-cols p{
+     color: antiquewhite;
+     font-size: 15px;
+ }
+ 
+ footer .cols .links-cols{
+     flex: 3;
+ }
+ 
+ footer .cols .links-cols h4, footer .cols .novidades-cols h4{
+    color: antiquewhite;
+    font-weight: 4;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+ }
+ 
+ footer .cols .novidades-cols p{
+     color: antiquewhite;
+     font-size: 15px; 
+     margin-bottom: 10px;
+ }
+ 
+ footer .cols .links-cols a{
+     display: block;
+     text-decoration: none;
+     color: rgb(14, 136, 206);
+     font-size: 14px;
+     line-height: 26px;
+     transition: color 0.3s ease;
+ }
+ 
+ footer .cols .links-cols a:hover{
+     color: antiquewhite;
+ }
+ 
+ footer .cols .novidades-cols{
+     flex: 3;
+ }
+ 
+ footer .cols .novidades-cols form{
+     width: 100%;
+     margin-top: 20px;
+     position: relative;
+ }
+ 
+ footer .cols .novidades-cols form input{
+     width: 100%;
+     background-color: rgb(12, 12, 46);
+     border: none;
+     padding: 13px;
+     border-radius: 100px;
+     font-weight: 4;
+     font-size: 13px;
+     color: antiquewhite;
+ }
+
+ footer .cols .novidades-cols form button{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 45px;
+     height: 45px;
+     background-color: rgb(14, 136, 206);
+     border: none;
+     border-radius: 50%;
+     position: absolute;
+     top: 0;
+     right: 0;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+ 
+ footer .cols .novidades-cols form button:hover{
+     background-color: rgb(255, 166, 0);
+ }
+ 
+ footer .cols .novidades-cols form button i{
+     font-size: 26px;
+ }

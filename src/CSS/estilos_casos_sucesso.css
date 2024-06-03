@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap'); /*font-family: "Anta", sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Honk:SHLN@49.8&family=Ojuju:wght@200..800&display=swap');/*font-family: "Honk", system-ui*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');/*font-family: "Alegrya Sana SC", sans-serif*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    /*background-image:url('https://www.green4t.com/wp-content/uploads/2023/07/tendencias-em-tecnologia-para-2023-o-que-ja-vingou-o-que-ficou-pelo-caminho-e-novas-apostas.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+    background-color:rgb(3, 3, 20);
+}
+
+.logo{
+    width: 100%;
+    right: 50px;
+    left: 20px;
+  
+}
+
+header .logo:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+    filter:drop-shadow(5px 5px 30px #FFFFFF);
+}
+
+.logo_caixa{
+    width: 40px;
+    position: relative;
+    margin-right: 10px;
+    /*background-color: red;*/
+}
+
+.barra-navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+    padding: 0 50px ;
+    font-family: "Anta",  sans-serif;
+    background-color: rgb(3, 3, 20);
+    margin-bottom: 10vh;
+}
+
+.barra-navegacao h2{
+    color: rgb(7, 163, 253);
+    font-weight: 500;
+    font-size: 3vw;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.barra-navegacao ul{
+    display: flex;
+    align-items: center;
+    justify-content: column;
+}
+
+.barra-navegacao ul li{
+    list-style: none;
+}
+
+.barra-navegacao ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.barra-navegacao li:hover a{
+color: rgb(255, 166, 0);
+}
+
+.bt-acessar{
+    background: rgb(7, 163, 253);
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.bt-acessar:hover{
+    background: rgb(255, 166, 0);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap'); /*font-family: "Anta", sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Honk:SHLN@49.8&family=Ojuju:wght@200..800&display=swap');/*font-family: "Honk", system-ui*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');/*font-family: "Alegrya Sana SC", sans-serif*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    /*background-image:url('https://www.green4t.com/wp-content/uploads/2023/07/tendencias-em-tecnologia-para-2023-o-que-ja-vingou-o-que-ficou-pelo-caminho-e-novas-apostas.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+    background-color:rgb(3, 3, 20);
+}
+
+.logo{
+    width: 100%;
+    right: 50px;
+    left: 20px;
+  
+}
+
+header .logo:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+    filter:drop-shadow(5px 5px 30px #FFFFFF);
+}
+
+.logo_caixa{
+    width: 40px;
+    position: relative;
+    margin-right: 10px;
+    /*background-color: red;*/
+}
+
+.barra-navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+    padding: 0 50px ;
+    font-family: "Anta",  sans-serif;
+    background-color: rgb(3, 3, 20);
+    margin-bottom: 10vh;
+}
+
+.barra-navegacao h2{
+    color: rgb(7, 163, 253);
+    font-weight: 500;
+    font-size: 3vw;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.barra-navegacao ul{
+    display: flex;
+    align-items: center;
+    justify-content: column;
+}
+
+.barra-navegacao ul li{
+    list-style: none;
+}
+
+.barra-navegacao ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.barra-navegacao li:hover a{
+color: rgb(255, 166, 0);
+}
+
+.bt-acessar{
+    background: rgb(7, 163, 253);
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.bt-acessar:hover{
+    background: rgb(255, 166, 0);
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vh;
+    padding: 20px 25px;    
+    background-color: rgb(14, 136, 206);
+    border-radius: 15px;
+    margin: 30px 20px;
+}
+
+.sobre img{
+    max-width: 40vw;
+    border-radius: 10px;
+}
+
+.sobre .info h3{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Anta", sans-serif;
+}
+
+.sobre .info p{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+    text-align: justify;
+}
+
+span{
+    color: black;
+    text-transform: uppercase;
+}
